@@ -13,3 +13,4 @@ GROUP BY
   page_url
 ORDER BY
   page_view DESC;
+LIMIT 10
