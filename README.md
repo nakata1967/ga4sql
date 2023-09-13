@@ -1,3 +1,4 @@
 # このフォルダの目的
-- Twitter（X）（https://twitter.com/_and_a_）に掲載している【 GA4 SQL 初級 問題 】の回答例のクエリを掲載しています。
+- Twitter（X）に掲載している【 GA4 SQL 初級 問題 】の回答例のクエリを掲載しています。
+- https://twitter.com/_and_a_
 - SQLの書き方は色々ありますので、こちらの回答例は、あくまでも一例としてご参照ください。
