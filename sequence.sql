@@ -15,7 +15,7 @@ WITH
       UNNEST(event_params) AS event_param
     WHERE
       _TABLE_SUFFIX BETWEEN '20201101'
-      AND '20221110'
+      AND '20201110'
       AND event_name = 'page_view'
       AND event_param.key = 'page_location' )
   GROUP BY
