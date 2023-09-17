@@ -32,7 +32,7 @@ FROM (
     UNNEST(event_params) AS event_param
   WHERE
     _TABLE_SUFFIX BETWEEN '20201101'
-    AND '20221130'
+    AND '20201130'
     AND event_name = 'page_view'
     AND (KEY = 'page_location'
       OR KEY = 'ga_session_id')
