@@ -24,7 +24,7 @@ WITH
     hour ) -- 各時間帯ごとのセッションの割合を計算
 SELECT
   FORMAT('%02d', hour) AS hh,
-  FORMAT("%.3f%%", ROUND((session_count * 100.0 / total_sessions), 3)) AS sessions_percent_pct
+  FORMAT("%.3f%%", ROUND((session_count * 100.0 / total_sessions), 3)) AS sessions_percent
 FROM
   HourlySessions
 CROSS JOIN
